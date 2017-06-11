@@ -89,12 +89,12 @@
 
 <meta name="description" content="美不过沿途风景。">
 <meta property="og:type" content="website">
-<meta property="og:title" content="前端技术">
+<meta property="og:title" content="Jackie'Zon">
 <meta property="og:url" content="http://yoursite.com/index.html">
-<meta property="og:site_name" content="前端技术">
+<meta property="og:site_name" content="Jackie'Zon">
 <meta property="og:description" content="美不过沿途风景。">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="前端技术">
+<meta name="twitter:title" content="Jackie'Zon">
 <meta name="twitter:description" content="美不过沿途风景。">
 
 
@@ -129,7 +129,7 @@
 
 
 
-  <title> 前端技术 </title>
+  <title> Jackie'Zon </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -167,7 +167,7 @@
     <div class="custom-logo-site-title">
       <a href="/"  class="brand" rel="start">
         <span class="logo-line-before"><i></i></span>
-        <span class="site-title">前端技术</span>
+        <span class="site-title">Jackie'Zon</span>
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
@@ -270,6 +270,196 @@
   
 
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/11/react-native-init/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="Jackie Zon">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.png">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Jackie'Zon">
+    </span>
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                
+                <a class="post-title-link" href="/2017/06/11/react-native-init/" itemprop="url">
+                  react-native-init
+                </a>
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">发表于</span>
+              
+              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-06-11T20:15:42+08:00">
+                2017-06-11
+              </time>
+            
+
+            
+
+            
+          </span>
+
+          
+
+          
+            
+              <span class="post-comments-count">
+                <span class="post-meta-divider">|</span>
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-comment-o"></i>
+                </span>
+                <a href="/2017/06/11/react-native-init/#comments" itemprop="discussionUrl">
+                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/06/11/react-native-init/" itemprop="commentCount"></span>
+                </a>
+              </span>
+            
+          
+
+          
+          
+
+          
+
+          
+
+          
+
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        
+          
+            <p><style><br>    img{width: 50%;}<br></style></p>
+<h3 id="react-native-安装流程"><a href="#react-native-安装流程" class="headerlink" title="react-native-安装流程"></a>react-native-安装流程</h3><h3 id="工具安装"><a href="#工具安装" class="headerlink" title="工具安装"></a>工具安装</h3><ul>
+<li>Python @2.7.13</li>
+<li>node -&gt; react-native-cli</li>
+<li>安卓 JDK jdk-8u131-windows-x64</li>
+<li>android-studio</li>
+</ul>
+<p>–<strong>安装Python @python-2.7.13.amd64</strong>:</p>
+<blockquote>
+<p>下载 <a href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi" target="_blank" rel="external">python-2.7.13版本 时间 2017 06-11</a></p>
+</blockquote>
+<p>–<strong>安装node、yarn、react-native-cli</strong>:</p>
+<blockquote>
+<p>下载 <a href="https://nodejs.org/en/" target="_blank" rel="external">node</a> 命令行安装 $ <em>npm install -g yarn react-native-cli</em></p>
+</blockquote>
+<p>–<strong>安装安卓的JDK → jdk-8u131-windows-x64.exe</strong>:</p>
+<blockquote>
+<p>下载 <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank" rel="external">安卓JDK 1.版本以上</a> </p>
+</blockquote>
+<p>–<strong>安装android-studio-bundle-162.4069837-windows</strong>:</p>
+<blockquote>
+<p>下载 <a href="https://developer.android.com/studio/index.html" target="_blank" rel="external">android-studio</a> 下载2.0以上版本</p>
+</blockquote>
+<hr>
+<h3 id="android-studio-安装"><a href="#android-studio-安装" class="headerlink" title="android-studio 安装"></a>android-studio 安装</h3><p><strong>安装流程截图</strong>:</p>
+<blockquote>
+<p>记下 SDK 的安装路径</p>
+</blockquote>
+<p><img src="/2017/06/11/react-native-init/0.1.png" alt="First"></p>
+<blockquote>
+<p>取消安装SDK</p>
+</blockquote>
+<p><img src="/2017/06/11/react-native-init/1.png" alt="First"></p>
+<blockquote>
+<p>出现以下界面 点击右下角的 Configure 设置SDK</p>
+</blockquote>
+<p><img src="/2017/06/11/react-native-init/2.png" alt="First"></p>
+<blockquote>
+<p>勾选3个必选的SDK</p>
+</blockquote>
+<p><img src="/2017/06/11/react-native-init/3.png" alt="First"><br><img src="/2017/06/11/react-native-init/4.png" alt="First"><br><img src="/2017/06/11/react-native-init/5.png" alt="First"></p>
+<blockquote>
+<p>配置系统环境变量 在我的电脑属性 新建环境变量<br>变量名 ANDROID_HOME<br>变量值 C:\Users\JackieZon\AppData\Local\Android\Sdk  <em>这是本台机的SDK路径</em></p>
+</blockquote>
+<p><img src="/2017/06/11/react-native-init/6.png" alt="First"></p>
+<blockquote>
+<p>在 Pathl里添加两个环境变量</p>
+</blockquote>
+<p><img src="/2017/06/11/react-native-init/7.png" alt="First"></p>
+<blockquote>
+<blockquote>
+<blockquote>
+<p>完成</p>
+</blockquote>
+</blockquote>
+</blockquote>
+<p><img src="/2017/06/11/react-native-init/willok.jpeg" alt="First"></p>
+<hr>
+<h3 id="安卓模拟器下载地址-genymotion"><a href="#安卓模拟器下载地址-genymotion" class="headerlink" title="安卓模拟器下载地址 genymotion"></a>安卓模拟器下载地址 <a href="https://www.genymotion.com/" target="_blank" rel="external">genymotion</a></h3><h3 id="初始化Android-项目"><a href="#初始化Android-项目" class="headerlink" title="初始化Android 项目"></a>初始化Android 项目</h3><ol>
+<li>react-netive init helloWorld</li>
+<li>运行安装项目</li>
+<li>react-netive run-android</li>
+</ol>
+
+          
+        
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+    <div>
+      
+    </div>
+
+
+    <footer class="post-footer">
+      
+
+      
+
+      
+
+      
+      
+        <div class="post-eof"></div>
+      
+    </footer>
+  </article>
+
+
+    
+      
+
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
     <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/06/07/技术知识点笔记/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -279,7 +469,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="前端技术">
+      <meta itemprop="name" content="Jackie'Zon">
     </span>
 
     
@@ -366,7 +556,8 @@
 </ul>
 </li>
 </ul>
-<h3 id="技术知识点笔记-1"><a href="#技术知识点笔记-1" class="headerlink" title="技术知识点笔记"></a>技术知识点笔记</h3>
+<h3 id="技术知识点笔记-1"><a href="#技术知识点笔记-1" class="headerlink" title="技术知识点笔记"></a>技术知识点笔记</h3><blockquote class="blockquote-center">优秀的人，不是不合群，而是他们合群的人里面没有你</blockquote>
+
           
         
       
@@ -415,7 +606,7 @@
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="前端技术">
+      <meta itemprop="name" content="Jackie'Zon">
     </span>
 
     
@@ -493,7 +684,7 @@
       
         
           
-            
+            <blockquote class="blockquote-center">优秀的人，不是不合群，而是他们合群的人里面没有你</blockquote>
           
         
       
@@ -569,7 +760,7 @@
           
             <div class="site-state-item site-state-posts">
               <a href="/archives">
-                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-count">3</span>
                 <span class="site-state-item-name">日志</span>
               </a>
             </div>
@@ -577,6 +768,13 @@
 
           
 
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">1</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
           
 
         </nav>
@@ -756,6 +954,7 @@
 
 
 
+
   
   
 
@@ -771,4 +970,8 @@
   
 
 </body>
+<!-- 页面点击小红心 -->
+<script type="text/javascript" src="/js/src/love.js"></script>
+<!-- 背景动画 -->
+<script type="text/javascript" src="/js/src/particle.js"></script>
 </html>
