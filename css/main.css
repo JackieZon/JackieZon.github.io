@@ -296,8 +296,7 @@ blockquote {
 img {
   display: block;
   margin: auto;
-  /*max-width: 100%;*/
-  width: 60%!important;
+  max-width: 100%;
   height: auto;
 }
 hr {
@@ -1702,7 +1701,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #f439ff;
+  background: #db5cc1;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2869,4 +2868,12 @@ pre .javascript .function {
   .post-body {
     text-align: justify;
   }
+}
+.post-body p a {
+  color: #0593d3;
+  border-bottom: none;
+}
+.post-body p a:hover {
+  color: #0477ab;
+  text-decoration: underline;
 }
